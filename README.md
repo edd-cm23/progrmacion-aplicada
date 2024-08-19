@@ -1,3 +1,3 @@
 # Programas de la materia de computacion aplicada
-Eduardo Campos Moroyoqui
-rojo.cabor@gmail.com
+- Nombre: Eduardo Campos Moroyoqui
+- correo: rojo.cabor@gmail.com
