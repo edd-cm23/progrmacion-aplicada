@@ -7,3 +7,8 @@ print(f'{nombre} bienvenido a python, tu edad es {edad}, tu peso es {peso}')# F-
 print(type(nombre))
 print(type(edad))
 print(type(peso))#type nos muestra de que tipo es la variable 
+
+
+
+
+
