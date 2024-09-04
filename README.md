@@ -40,3 +40,11 @@
 - p21-aceptar-estudiante
 - p21-aceptar-estudiante-v2
 - p22-tipo-angulo
+
+## Tarea 02
+- p23-numeros-consecutivos
+- p24-numero-mayor
+- p25-dia-de-la-semana
+- p26-numeros-romanos
+- p27-calculo-de-notas
+- p28-aceptar-estudiante-v2
