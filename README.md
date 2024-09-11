@@ -57,3 +57,6 @@
 - p31-numeros-1-200-10
 - p32-numeros-suma-100
 - p33-conteo-numeros
+
+## Examen 01
+- p45–primer-examen-parcial
