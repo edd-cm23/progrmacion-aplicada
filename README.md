@@ -92,3 +92,10 @@
 - p56-piramide-caracter
 - p57-factorial-numeros
 - p58-combina-colores
+
+## Actividad 10 
+- p64–acceder-lista
+- p65–cambiar-lista
+- p66–agregar-lista
+- p67–remover-lista
+- p68–iterar-lista
