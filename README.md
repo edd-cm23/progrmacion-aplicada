@@ -101,16 +101,23 @@
 - p68–iterar-lista
 
 ## Actividad 11
-p69-procesar-calificaciones
-p70-sumar-listas
-p71-dia-paga
-p72-nombres-edades
-p73-listas-aleatorios
+- p69-procesar-calificaciones
+- p70-sumar-listas
+- p71-dia-paga
+- p72-nombres-edades
+- p73-listas-aleatorios
 
 ## Tarea 05
--p74-procesar-notas
--p75-lista-multiplica
--p76-meses-dia-nombre
--p77-lista-aleatorios-suma
--p78-ciudades
--p79-lista-impares
+- p74-procesar-notas
+- p75-lista-multiplica
+- p76-meses-dia-nombre
+- p77-lista-aleatorios-suma
+- p78-ciudades
+- p79-lista-impares
+
+## Actividad 12
+- p80-estudiante
+- p81-calificaciones
+- p82-nombres y edades
+- p83-conversion-medida
+- p84-conversion-moneda
