@@ -121,3 +121,11 @@
 - p82-nombres y edades
 - p83-conversion-medida
 - p84-conversion-moneda
+
+## Tarea 06
+- p90-crear-acceder-diccionario
+- p91-modificar-diccionario
+- p92-agregar-diccionario
+- p93-eliminar-diccionario
+- p94-procesar-diccionario
+- p95-contar-caracteres
