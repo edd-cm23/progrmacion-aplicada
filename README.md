@@ -129,3 +129,10 @@
 - p93-eliminar-diccionario
 - p94-procesar-diccionario
 - p95-contar-caracteres
+
+## Actividad 13
+-p85–procesar-pizza
+-p86–lista-dic-auto
+-p87-lista-dic-estudiante
+-p88-cliente-productos
+-p89-area-figuras
