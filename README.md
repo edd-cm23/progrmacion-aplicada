@@ -122,6 +122,13 @@
 - p83-conversion-medida
 - p84-conversion-moneda
 
+## Actividad 13
+-p85–procesar-pizza
+-p86–lista-dic-auto
+-p87-lista-dic-estudiante
+-p88-cliente-productos
+-p89-area-figuras
+
 ## Tarea 06
 - p90-crear-acceder-diccionario
 - p91-modificar-diccionario
@@ -130,9 +137,6 @@
 - p94-procesar-diccionario
 - p95-contar-caracteres
 
-## Actividad 13
--p85–procesar-pizza
--p86–lista-dic-auto
--p87-lista-dic-estudiante
--p88-cliente-productos
--p89-area-figuras
+## Actividad 14
+p96–trabajando-conjuntos
+p97-operaciones-conjuntos
