@@ -147,3 +147,12 @@
 
 ## Examen 02
 - p100–segundo-examen-parcial
+
+## Tarea 08
+- p127-numero-menor
+- p128-dia-semana
+- p129-medidas-longitud
+- p130-suma-pares-impares
+- p131-suma-digitos-lista
+- p132-calcula-factoriales
+- p133-estadisticas-basicas
