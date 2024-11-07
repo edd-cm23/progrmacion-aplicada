@@ -48,6 +48,25 @@ class Tienda:
         return total
     def __str__(self):
         return f'Tienda -> [ Nombre:{self.nombre} Domicilio:{self.domicilio}, Propietario: {self.propietario} ]'
+    
+def capturacliente():
+    print("Dame los datos del cliente")
+    rfc         = input("RFC        : ")
+    nombre      = input("Nombre     : ")
+    domicilio   = input("Domicilio  : ")
+    correo      = input("Correo     : ")
+    cliente     = Cliente(rfc, nombre, domicilio, correo)
+    return cliente
+
+def agregarVentas(cliente):
+    print("Captura de ventas ", cliente.nombre)
+    while True:
+        articulo = input("Articulo: ")
+        if articulo == '':
+            break
+        cantidad = float(input("Cantidad: "))
+        precio = float(input("Precio: "))
+        cliente.agregarVenta(Venta(articulo, cantidad, precio))    
 
 def main():
     os.system('cls')
@@ -60,12 +79,17 @@ def main():
     mitienda.agregarCliente( Cliente(rfc='AMLO101145',nombre='Andres Lopez',domicilio='Palacio Nacional 321',correo='peje@yahoo.com') )
     mitienda.agregarCliente( Cliente(rfc='GELA666666',nombre='Xochitl Gelatinas',domicilio='Danone 123',correo='xochitl@precidencia.gob.mx') )
     # Agregar Ventas a los clientes
-    mitienda.clientes[0].agregarVenta( Venta(articulo='Martillo',cantidad=10,precio=60.5) );
-    mitienda.clientes[0].agregarVenta( Venta(articulo='Pala',cantidad=2,precio=1170.55) );
-    mitienda.clientes[1].agregarVenta( Venta(articulo='Clavo',cantidad=2.5,precio=160.34) );
-    mitienda.clientes[1].agregarVenta( Venta(articulo='Cinta de Aislar',cantidad=5,precio=71.34) );
-    mitienda.clientes[1].agregarVenta( Venta(articulo='Pinzas',cantidad=10,precio=650.33) );
-    mitienda.clientes[2].agregarVenta( Venta(articulo='Thiner',cantidad=50,precio=65.00) );
+    mitienda.clientes[0].agregarVenta( Venta(articulo='Martillo',cantidad=10,precio=60.5) )
+    mitienda.clientes[0].agregarVenta( Venta(articulo='Pala',cantidad=2,precio=1170.55) )
+    mitienda.clientes[1].agregarVenta( Venta(articulo='Clavo',cantidad=2.5,precio=160.34) )
+    mitienda.clientes[1].agregarVenta( Venta(articulo='Cinta de Aislar',cantidad=5,precio=71.34) )
+    mitienda.clientes[1].agregarVenta( Venta(articulo='Pinzas',cantidad=10,precio=650.33) )
+    mitienda.clientes[2].agregarVenta( Venta(articulo='Thiner',cantidad=50,precio=65.00) )
+
+     # Captura de un nuevo cliente y sus ventas
+    nuevo_cliente = capturacliente()
+    mitienda.agregarCliente(nuevo_cliente)
+    agregarVentas(nuevo_cliente)
     # Reporte
     print(f'\nReporte de Ventas: {mitienda}\n')
     print(f'Total de clientes : {len(mitienda.clientes)}')
