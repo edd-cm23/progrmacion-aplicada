@@ -165,3 +165,9 @@
 
 ## Tarea 09 POO
 - p138-articulo
+
+## Actividad 17 POO
+- p139-ventas
+
+## Examen 03
+- p100–tercer-examen-parcial
