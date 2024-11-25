@@ -85,6 +85,13 @@
 - p51-multiplos-suma
 - p52-base-exponenteraturas
 
+## Tarea 04
+- p59-numeros-10-en-10
+- p60-suma-pares-2-n
+- p61-secuencia-numeros-1
+- p62–secuencia-numeros-2
+- p63-secuencia-terminos-1
+
 ## Actividad 09
 - p53-factorial
 - p54-tabla-multiplicar
